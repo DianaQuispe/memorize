@@ -13,7 +13,26 @@
        var ids = parseInt(ids);
        this.src = comidas[ids - 1];
        console.log(this.src);
+       if ($(this).hasClass('primero')) {
+           primero.push(this);
+           $(this).fadeOut;
+       } else if ($(this).hasClass('segundo')) {
+           segundo.push(this);
 
+       } else if ($(this).hasClass('tercero')) {
+           tercero.push(this);
+       } else if ($(this).hasClass('cuarto')) {
+           cuarto.push(this);
+       };
+       if (primero.length == 2) {
+           $('.primero').remove();
+       } else if (segundo.length == 2) {
+           $('.segundo').remove();
+       } else if (tercero.length == 2) {
+           $('.tercero').remove();
+       } else if (cuarto.length == 2) {
+           $('.cuarto').remove();
+       }
    });
 
    /*

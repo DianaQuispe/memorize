@@ -1,7 +1,11 @@
 * {
-
     margin: auto;
 }
+
+#h1 {
+    color: aquamarine;
+}
+
 .imgI {
     z-index: 0;
     background-repeat: no-repeat;
@@ -15,11 +19,12 @@
     position: relative;
     border-radius: 44px;
 }
+
 .clase {
     background-color: antiquewhite;
 }
 
-.food  {
+.food {
     background-color: black;
     border: 0px;
     cursor: pointer;
@@ -31,11 +36,13 @@
     position: relative;
     border-radius: 44px;
 }
+
 .food:hover {
     background-color: rgba(0, 0, 0, 0.83);
 }
+
 .contenedor {
-     background-color: antiquewhite;
+    background-color: antiquewhite;
     position: absolute;
     margin-top: 2%;
     margin-left: 5%;
