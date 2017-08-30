@@ -15,9 +15,13 @@
     position: relative;
     border-radius: 44px;
 }
+.clase {
+    background-color: antiquewhite;
+}
 
 .food  {
-
+    background-color: black;
+    border: 0px;
     cursor: pointer;
     position: relative;
     margin: 20px;
