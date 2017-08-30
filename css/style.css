@@ -1,0 +1,41 @@
+* {
+
+    margin: auto;
+}
+.imgI {
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    height: 253px;
+    float: left;
+    position: relative;
+    border-radius: 44px;
+}
+
+.food  {
+
+    cursor: pointer;
+    position: relative;
+    margin: 20px;
+    width: 250px;
+    height: 253px;
+    float: left;
+    position: relative;
+    border-radius: 44px;
+}
+.food:hover {
+    background-color: rgba(0, 0, 0, 0.83);
+}
+.contenedor {
+     background-color: antiquewhite;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 90%;
+    height: 700px;
+    position: relative;
+}
