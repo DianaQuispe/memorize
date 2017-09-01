@@ -1,52 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo|Monoton');
 * {
-    margin: auto;
+    margin: 0 auto;
+    font-family: 'Monoton', cursive;
+    background-color: rgba(204, 234, 234, 0.66);
 }
 
-#h1 {
-    color: aquamarine;
+#h1  {
+    display: flex;
+    justify-content: center;
+    font-size: 5em;
+    font-size: 5em;
+    color: rgb(59, 120, 147);
 }
-
-.imgI {
-    z-index: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+#botonStart {
     cursor: pointer;
-    position: relative;
-    margin: 20px;
-    width: 250px;
-    height: 253px;
-    float: left;
-    position: relative;
-    border-radius: 44px;
+    margin: 0%  46% 5%;
+    font-family: 'Baloo', cursive;
+    display: flex;
+    font-size: 2em;
+    border: 3px solid #d0d0d0;
+    border-radius: 18px;
 }
-
-.clase {
-    background-color: antiquewhite;
-}
-
-.food {
+#botonStart:hover {
     background-color: black;
-    border: 0px;
-    cursor: pointer;
-    position: relative;
-    margin: 20px;
-    width: 250px;
-    height: 253px;
-    float: left;
-    position: relative;
-    border-radius: 44px;
+    color: aliceblue;
+    border: 3px solid #e01b1b;
+    border-radius: 18px;
 }
-
-.food:hover {
-    background-color: rgba(0, 0, 0, 0.83);
-}
-
-.contenedor {
-    background-color: antiquewhite;
+.inicio {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    margin-top: 2%;
-    margin-left: 5%;
-    width: 90%;
-    height: 700px;
-    position: relative;
+}
+.inicial {
+    cursor: pointer;
+    background-image: url(../assets/images/chef.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #030101;
+    background-color: azure;
+    height: 140px;
+    width: 100px;
+    border-radius: 23px;
+
+}
+td, tr {
+}
+.images {
+    background-position: center;
+    background-color: #c0d9bf;
+    height: 140px;
+    width: 100px;
+    border: 3px solid #030101;
+    border-radius: 23px;
 }
